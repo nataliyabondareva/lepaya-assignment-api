@@ -1,13 +1,14 @@
 {
-  "name": "create-next-example-app",
+  "name": "random-numbers-api",
   "scripts": {
-    "dev": "next",
-    "build": "next build",
-    "start": "next start"
+    "start": "micro",
+    "dev": "micro-dev"
   },
   "dependencies": {
-    "next": "^9.0.2",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "micro": "^9.3.4",
+    "micro-query": "^0.3.0"
+  },
+  "devDependencies": {
+    "micro-dev": "^3.0.0"
   }
 }
